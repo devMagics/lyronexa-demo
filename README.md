@@ -11,15 +11,15 @@ Serving requirements, because the host is strict:
 
 ## Plugin links
 
-- player: `https://media.example/plugins/player.lyx`
-- downloader: `https://media.example/plugins/downloader.lyx`
-- tracker: `https://media.example/plugins/tracker.lyx`
-- player-v2: `https://media.example/plugins/player-v2.lyx`
+- player: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/player.lyx`
+- downloader: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/downloader.lyx`
+- tracker: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/tracker.lyx`
+- player-v2: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/player-v2.lyx`
 
 ## Media links
 
-- `https://media.example/media/tone-stereo.wav`
-- `https://media.example/media/tone-mono.wav`
+- `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/media/tone-stereo.wav`
+- `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/media/tone-mono.wav`
 
 ## Note on the player-v2 stream link
 
