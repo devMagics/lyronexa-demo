@@ -11,6 +11,7 @@ Serving requirements, because the host is strict:
 
 ## Plugin links
 
+- minimal: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/minimal.lyx`
 - player: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/player.lyx`
 - downloader: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/downloader.lyx`
 - tracker: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/tracker.lyx`
