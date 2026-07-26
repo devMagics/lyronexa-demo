@@ -15,15 +15,15 @@ Serving requirements, because the host is strict:
 - player: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/player.lyx`
 - downloader: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/downloader.lyx`
 - tracker: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/tracker.lyx`
-- player-v2: `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/plugins/player-v2.lyx`
 
 ## Media links
 
-- `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/media/tone-stereo.wav`
-- `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/media/tone-mono.wav`
+- `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/media/calm.wav`
+- `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/media/pulse.wav`
+- `https://raw.githubusercontent.com/devMagics/lyronexa-demo/main/media/chime.wav`
 
-## Note on the player-v2 stream link
+## Note on the player stream links
 
-Its `playMedia.v1` URL is baked into the signed document, so changing the host means
-rebuilding the package. Pass the real origin as the second argument to this script and
-update `examples/plugins/player-v2/ui/home.json` and its `media.play.v1` scope to match.
+They are baked into the signed document, so changing the host means rebuilding the
+package. Pass the real origin as the second argument to this script and update
+`examples/plugins/player/ui/home.json` and its `media.play.v1` scope to match.
