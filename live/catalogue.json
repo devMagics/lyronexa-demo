@@ -1,0 +1,64 @@
+{
+  "documentVersion": 1,
+  "initialScreenId": "catalogue",
+  "screens": [
+    {
+      "id": "catalogue",
+      "title": {
+        "literal": "Live catalogue"
+      },
+      "content": {
+        "type": "column",
+        "id": "root",
+        "alignment": "start",
+        "children": [
+          {
+            "type": "text",
+            "id": "h",
+            "style": "title",
+            "text": {
+              "literal": "Fetched from the server"
+            }
+          },
+          {
+            "type": "text",
+            "id": "s",
+            "style": "body",
+            "text": {
+              "literal": "None of this text was in the installed package. The server sent the whole document, and the host replaced the old one."
+            }
+          },
+          {
+            "type": "spacer",
+            "id": "g1",
+            "size": "medium"
+          },
+          {
+            "type": "text",
+            "id": "i1",
+            "style": "label",
+            "text": {
+              "literal": "Item 1 \u2014 added server-side"
+            }
+          },
+          {
+            "type": "text",
+            "id": "i2",
+            "style": "label",
+            "text": {
+              "literal": "Item 2 \u2014 added server-side"
+            }
+          },
+          {
+            "type": "text",
+            "id": "i3",
+            "style": "label",
+            "text": {
+              "literal": "Item 3 \u2014 added server-side"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
